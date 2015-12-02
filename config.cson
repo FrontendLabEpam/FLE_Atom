@@ -89,6 +89,10 @@
   "one-dark-ui": {}
   react:
     enabledForAllJavascriptFiles: true
+  "w3c-validation":
+    hideOnNoErrors: true
+    validateOnSave: false
+    useFoldModeAsDefault: true
 ".babel.regexp.source":
   editor:
     preferredLineLength: 120

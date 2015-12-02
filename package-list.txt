@@ -1,13 +1,15 @@
 atom-beautify@0.28.19
-atom-ternjs@0.10.2
+atom-ternjs@0.10.3
 docblockr@0.7.3
 editorconfig@1.2.2
 highlight-selected@0.11.1
 language-babel@2.5.3
 linter@1.11.3
+linter-csslint@1.1.0
 linter-eslint@5.2.4
+linter-htmlhint@0.2.1
 seti-syntax@0.4.1
 seti-ui@0.8.1
 sort-lines@0.12.0
 tabs-to-spaces@1.0.1
-whitespace@0.32.1
+w3c-validation@0.2.0
