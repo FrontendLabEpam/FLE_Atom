@@ -1,0 +1,103 @@
+"*":
+  welcome:
+    showOnStartup: false
+  core:
+    disabledPackages: [
+      "metrics"
+      "language-objective-c"
+      "archive-view"
+      "autoflow"
+      "background-tips"
+      "deprecation-cop"
+      "dev-live-reload"
+      "encoding-selector"
+      "language-c"
+      "language-clojure"
+      "language-coffee-script"
+      "language-csharp"
+      "language-go"
+      "language-java"
+      "language-make"
+      "language-mustache"
+      "language-perl"
+      "language-property-list"
+      "language-ruby-on-rails"
+      "language-source"
+      "language-sql"
+      "language-todo"
+      "language-toml"
+      "language-yaml"
+      "package-generator"
+      "release-notes"
+      "welcome"
+      "linter-jshint"
+    ]
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+    autoHideMenuBar: true
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "Thumbs.db"
+      ".codekit-cache"
+    ]
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    useHardwareAcceleration: true
+    lineHeight: 1.2
+    preferredLineLength: 120
+    softWrapHangingIndent: 120
+    fontSize: 12
+  "linter-jscs":
+    verbose: true
+    harmony: true
+    onlyConfig: true
+  autosave:
+    enabled: true
+  docblockr:
+    spacer_between_sections: true
+    auto_add_method_tag: true
+    development_mode: true
+    extend_double_slash: false
+  "fuzzy-finder":
+    ignoredNames: [
+      "bin"
+      "obj"
+      "node_modules"
+    ]
+  "markdown-preview":
+    breakOnSingleNewline: true
+  "git-diff":
+    showIconsInEditorGutter: true
+  "tree-view":
+    hideIgnoredNames: true
+  "language-babel":
+    transpileOnSave: false
+  linter:
+    lintOnFly: false
+    showErrorTabLine: true
+  "linter-eslint":
+    disableWhenNoEslintrcFileInPath: true
+  "atom-ternjs":
+    lint: false
+  "one-dark-ui": {}
+  react:
+    enabledForAllJavascriptFiles: true
+".babel.regexp.source":
+  editor:
+    preferredLineLength: 120
+    softWrapHangingIndent: 120
+".coffee.jsx.source":
+  editor:
+    preferredLineLength: 120
+    softWrapHangingIndent: 120
+".js.jsx.source":
+  editor:
+    preferredLineLength: 120
+    softWrapHangingIndent: 120

@@ -1,0 +1,57 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed.
+ *
+ * If you are unfamiliar with LESS, you can read more about it here:
+ * http://www.lesscss.org
+ */
+// COLORS
+@blue: rgb(85,181,219);
+@green: rgb(159,202,86);
+@yellow: rgb(230,205,105);
+@red: rgb(205,63,69);
+@purple: rgb(160,116,196);
+
+.tree-view {
+
+}
+
+// style the background and foreground colors on the atom-text-editor-element
+// itself
+atom-text-editor {
+
+}
+
+span.path-name.bright{
+  color: #52D8CE;
+}
+
+span.match.highlight-info {
+  background: rgba(79, 153, 211, 0.1);
+  padding: 1px 0;
+}
+tabs-bar tabs-tab:before, .tab-bar tabs-tab:before, tabs-bar .tab:before, .tab-bar .tab:before,
+tabs-bar tabs-tab.active:before, .tab-bar tabs-tab.active:before, tabs-bar .tab.active:before, .tab-bar .tab.active:before,
+tabs-bar tabs-tab.active, .tab-bar tabs-tab.active, tabs-bar .tab.active, .tab-bar .tab.active,
+tabs-bar tabs-tab, .tab-bar tabs-tab, tabs-bar .tab, .tab-bar .tab,
+tabs-bar, .tab-bar {
+  border-bottom-width: 2px;
+}
+
+tabs-bar, .tab-bar,
+.tab-bar .tab.active, .tab-bar .tab.active:before {
+  height: 36px;
+}
+
+.list-nested-item.selected .path-name,
+.list-nested-item.selected .path-match-number {
+  color: white
+}
+
+// To style other content in the text editor's shadow DOM, use the ::shadow
+// expression
+// atom-text-editor::shadow .scroll-view, atom-text-editor::shadow .line-number {
+//   padding-left: 5px !important;
+// }
