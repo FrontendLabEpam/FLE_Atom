@@ -11,11 +11,15 @@ includes plugins for:
 #### Instructions
 
 1. install [Node.js](https://nodejs.org/en)
-  - open your [terminal](https://en.wikipedia.org/wiki/Command-line_interface) and type `npm install -g eslint`
+  - open [terminal](https://en.wikipedia.org/wiki/Command-line_interface) and ensure successful instalation: `node -v`, `npm -v`
+  - type `npm install -g eslint`
+    - if system errors with permission denied, try `sudo npm install -g eslint`
 2. install [Atom Editor](https://atom.io/)
-  - watch introductionary [video](https://www.youtube.com/watch?v=Y7aEiVwBAdk).
+  - open terminal and ensure you can access atom and [apm](https://github.com/atom/apm): `apm -v`
+    - if system errors, open Atom manually, in atom menu click `Install Shell commands`
+  - watch introductionary [video](https://www.youtube.com/watch?v=Y7aEiVwBAdk)
   - forget about mouse - learn [shortcodes](https://atom.io/docs/v1.2.4/using-atom-moving-in-atom)
 3. install [Git](https://git-scm.com/downloads)
-4. do a back up for your Atom configs. (unix:`mv ~/.atom ~./atom_bk`)
-5. `git clone https://github.com/FrontendLabEpam/FLE_Atom.git ~/.atom` to replace your configs with those in these repository
+4. rename your current configs folder `mv ~/.atom ~./atom_bk` or just remove it if you are brave enough.
+5. copy our configs: `git clone https://github.com/FrontendLabEpam/FLE_Atom.git ~/.atom`
 6. install listed packages with `apm install --packages-file ~/.atom/package-list.txt`
