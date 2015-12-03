@@ -20,6 +20,9 @@ includes plugins for:
   - watch introductionary [video](https://www.youtube.com/watch?v=Y7aEiVwBAdk)
   - forget about mouse - learn [shortcodes](https://atom.io/docs/v1.2.4/using-atom-moving-in-atom)
 3. install [Git](https://git-scm.com/downloads)
-4. rename your current configs folder `mv ~/.atom ~./atom_bk` or just remove it if you are brave enough.
+4. rename your current configs folder
+  - unix: `mv ~/.atom ~./atom_bk`
+  - [windows](https://en.wikipedia.org/wiki/Ren_(command)): `ren .atom atom_bk`
+  - or just remove it if you are brave enough
 5. copy our configs: `git clone https://github.com/FrontendLabEpam/FLE_Atom.git ~/.atom`
 6. install listed packages with `apm install --packages-file ~/.atom/package-list.txt`
