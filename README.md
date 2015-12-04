@@ -20,9 +20,25 @@ includes plugins for:
   - watch introductionary [video](https://www.youtube.com/watch?v=Y7aEiVwBAdk)
   - forget about mouse - learn [shortcodes](https://atom.io/docs/v1.2.4/using-atom-moving-in-atom)
 3. install [Git](https://git-scm.com/downloads)
+  - open git bash, type `git --version` to ensure some programs have aliases like `-v` and some - not
 4. rename your current configs folder
-  - unix: `mv ~/.atom ~./atom_bk`
+  - unix or from git bash: `mv ~/.atom ~./atom_bk`
   - [windows](https://en.wikipedia.org/wiki/Ren_(command)): `ren .atom atom_bk`
+  - windows: if system errors, might be `apm` it is not in your [PATH](http://geekswithblogs.net/renso/archive/2009/10/21/how-to-set-the-windows-path-in-windows-7.aspx)
   - or just remove it if you are brave enough
 5. copy our configs: `git clone https://github.com/FrontendLabEpam/FLE_Atom.git ~/.atom`
 6. install listed packages with `apm install --packages-file ~/.atom/package-list.txt`
+7. if you have faced problems with some particular package, you may try to install it manually in atom:
+  - press `ctrl + ,`, 'Install', search for [packages](https://github.com/FrontendLabEpam/FLE_Atom/blob/master/package-list.txt)
+
+
+#### GIFS
+
+1. ensure node paths in terminal
+  ![](http://imgur.com/OBzUGxp.gif)
+
+2. ensure apm, git clone configs, install packages
+  ![](http://imgur.com/LvVwcjv.gif)
+
+3. for troubles with windows
+  ![](http://i.imgur.com/FebnXar.gif)
