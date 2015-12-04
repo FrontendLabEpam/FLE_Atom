@@ -17,6 +17,7 @@ includes plugins for:
 2. install [Atom Editor](https://atom.io/)
   - open terminal and ensure you can access atom and [apm](https://github.com/atom/apm): `apm -v`
     - if system errors, open Atom manually, in atom menu click `Install Shell commands`
+      - windows7: might be you don't have option above, you would need to add `apm` manually into [PATH](http://geekswithblogs.net/renso/archive/2009/10/21/how-to-set-the-windows-path-in-windows-7.aspx)
   - watch introductionary [video](https://www.youtube.com/watch?v=Y7aEiVwBAdk)
   - forget about mouse - learn [shortcodes](https://atom.io/docs/v1.2.4/using-atom-moving-in-atom)
 3. install [Git](https://git-scm.com/downloads)
@@ -24,7 +25,6 @@ includes plugins for:
 4. rename your current configs folder
   - unix or from git bash: `mv ~/.atom ~./atom_bk`
   - [windows](https://en.wikipedia.org/wiki/Ren_(command)): `ren .atom atom_bk`
-  - windows: if system errors, might be `apm` it is not in your [PATH](http://geekswithblogs.net/renso/archive/2009/10/21/how-to-set-the-windows-path-in-windows-7.aspx)
   - or just remove it if you are brave enough
 5. copy our configs: `git clone https://github.com/FrontendLabEpam/FLE_Atom.git ~/.atom`
 6. install listed packages with `apm install --packages-file ~/.atom/package-list.txt`
