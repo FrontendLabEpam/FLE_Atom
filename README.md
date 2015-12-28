@@ -8,29 +8,45 @@ includes plugins for:
 - [W3C validator](https://validator.w3.org/)
 - [and more...](https://github.com/FrontendLabEpam/FLE_Atom/blob/master/package-list.txt)
 
-#### Instructions
+#### Instructions (Manual/Noobish Way)
+1. Install [Atom Editor](https://atom.io/)
+2. Manually [install](https://atom.io/docs/v1.3.2/using-atom-atom-packages):
+  - atom-beautify
+  - atom-ternjs
+  - docblockr
+  - editorconfig
+  - highlight-selected
+  - language-babel
+  - linter
+  - linter-eslint
+  - linter-htmlhint
+  - tabs-to-spaces
+  - w3c-validation
+  - linter-csslint
+3. Some plugins may require additional setups - read instructions for every package carefully
 
-1. install [Node.js](https://nodejs.org/en)
+#### Instructions (Automatic/Pro:) Way)
+
+1. Install [Node.js](https://nodejs.org/en)
   - open [terminal](https://en.wikipedia.org/wiki/Command-line_interface) and ensure successful instalation: `node -v`, `npm -v`
   - type `npm install -g eslint`
     - if system errors with permission denied, try `sudo npm install -g eslint`
-2. install [Atom Editor](https://atom.io/)
+2. Install [Atom Editor](https://atom.io/)
   - open terminal and ensure you can access atom and [apm](https://github.com/atom/apm): `apm -v`
     - if system errors, open Atom manually, in atom menu click `Install Shell commands`
       - windows7: might be you don't have option above, you would need to add `apm` manually into [PATH](http://geekswithblogs.net/renso/archive/2009/10/21/how-to-set-the-windows-path-in-windows-7.aspx)
   - watch introductionary [video](https://www.youtube.com/watch?v=Y7aEiVwBAdk)
   - forget about mouse - learn [shortcodes](https://atom.io/docs/v1.2.4/using-atom-moving-in-atom)
-3. install [Git](https://git-scm.com/downloads)
+3. Install [Git](https://git-scm.com/downloads)
   - open git bash, type `git --version` to ensure some programs have aliases like `-v` and some - not
-4. rename your current configs folder
+4. Rename your current configs folder
   - unix or from git bash: `mv ~/.atom ~./atom_bk`
-  - [windows](https://en.wikipedia.org/wiki/Ren_(command)): `ren .atom atom_bk`
+  - [windows](https://en.wikipedia.org/wiki/Ren_(command): `ren .atom atom_bk`
   - or just remove it if you are brave enough
-5. copy our configs: `git clone https://github.com/FrontendLabEpam/FLE_Atom.git ~/.atom`
-6. install listed packages with `apm install --packages-file ~/.atom/package-list.txt`
-7. if you have faced problems with some particular package, you may try to install it manually in atom:
+5. Copy our configs: `git clone https://github.com/FrontendLabEpam/FLE_Atom.git ~/.atom`
+6. Install listed packages with `apm install --packages-file ~/.atom/package-list.txt`
+7. If you have faced problems with some particular package, you may try to install it manually in atom:
   - press `ctrl + ,`, 'Install', search for [packages](https://github.com/FrontendLabEpam/FLE_Atom/blob/master/package-list.txt)
-
 
 #### GIFS
 
